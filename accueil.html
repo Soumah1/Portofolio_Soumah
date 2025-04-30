@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Abdoulaye Soumah</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  
+  
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo"> Abdoulaye<span> Soumah</span></div>
+    <ul class="nav-links">
+      <li><a href="#about">À propos</a></li>
+      <li><a href="#projects">Projets</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Abdoulaye Soumah</h1>
+    <p>Étudiant en informatique à l'UQO, passionné par l'informatique </p>
+    <a href="#projects" class="btn">Découvrir mes Projets</a>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <h2>À propos de moi</h2>
+    <p>
+      Je m'appelle Abdoulaye Soumah. Je suis passionné par l'informatique depuis toujours et aujourd'hui, je vis ce rêve. Étudiant à l'UQO, 
+      j'ai réalisé plusieurs projets en Python, Java, C++, et également un portail étudiant. Curieux et ambitieux, mon objectif est de devenir 
+      un expert en informatique pour apporter ma contribution à cette science.
+    </p>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects" id="projects">
+    <h2>Mes Projets</h2>
+    <div class="project-grid">
+      <!-- Project 1 (Video) -->
+      <div class="project" data-aos="fade-up">
+        <div class="project-content">
+          <h3>Site : Gestion des Notes</h3>
+          <video controls class="project-video">
+            <source src="WhatsApp Vidéo 2025-01-27 à 13.36.58_e4d493d8.mp4" type="video/mp4">
+            Votre navigateur ne supporte pas la vidéo.
+          </video>
+          <p>Une application web complète pour gérer les notes des étudiants, organiser les cours et améliorer la productivité académique.</p>
+        </div>
+      </div>
+
+      <!-- Project 2 (Image) -->
+      <div class="project" data-aos="fade-left">
+        <div class="project-content">
+          <h3>Application Mobile : Suivi des Dépenses </h3>
+          <img src="Capture d'écran 2025-01-05 185757.png" alt="Projet 2" class="project-image">
+          <p> Un tableau de bord interactif pour calculer toutes vos dépenses mensuels</p>
+        </div>
+      </div>
+
+      <!-- Project 3 (Image) -->
+      <div class="project" data-aos="fade-right">
+        <div class="project-content">
+          <h3>Design FIGMA </h3>
+          <img src="Frame 1.png" alt="Projet 3" class="project-image">
+          <p> Un design fait avec FIGMA</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <h2>Contactez-moi</h2>
+    <form id="contactForm">
+      <input type="text" name="name" placeholder="Votre Nom" required>
+      <input type="email" name="email" placeholder="Votre E-mail" required>
+      <textarea name="message" rows="5" placeholder="Votre Message" required></textarea>
+      <button type="submit" class="btn">Envoyer</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 Abdoulaye Soumah. Tous droits réservés.</p>
+      <ul class="social-links">
+        <li><a href="https://www.linkedin.com/in/abdoulaye-soumah-82b24b232/">LinkedIn</a></li>
+        <li><a href="https://github.com/Soumah1">GitHub</a></li>
+        <li><a href="#">Twitter</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
